@@ -17,3 +17,10 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const auth = getAuth()
+
+
+var firstname = document.getElementById('firstname');
+var lastname = document.getElementById('lastname');
+var email = document.getElementById('email');
+var password = document.getElementById('password');
