@@ -24,3 +24,18 @@ var firstname = document.getElementById('firstname');
 var lastname = document.getElementById('lastname');
 var email = document.getElementById('email');
 var password = document.getElementById('password');
+
+window.signup = function (e) {
+    e.preventDefault();
+
+    var obj = {
+        firstname: firstname.vale,
+        lastname: lastname.value,
+        email: email.value,
+    }
+    createUserWithEmailAndPassword(auth, obj.email.obj.password, obj.firstname, obj.lastname).then(function (success) {
+        alert('Signup Successfully')
+    }).catch(function (error) {
+        alert('error' + error)
+    })
+}
