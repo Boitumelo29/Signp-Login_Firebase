@@ -3,7 +3,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/fireba
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
+// Your web app's Firebase configuratio
 const firebaseConfig = {
     apiKey: "AIzaSyBMenG6Vqk9Hpjuu-dWg9FmMRndJ1CE1n4",
     authDomain: "signupwithfirebasejs.firebaseapp.com",
