@@ -44,3 +44,4 @@ const signUp = async () => {
 signup.addEventListener('click', signUp);
 signUpBtn.addEventListener('click', signUp);
 
+//boitumelo thobejane 
